@@ -1,0 +1,35 @@
+### MD ###
+HELP.md
+HINTS.md
+
+### Gradle ###
+.gradle/
+build/
+
+### Exercism (Opsional) ###
+.exercism/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### STS / Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
