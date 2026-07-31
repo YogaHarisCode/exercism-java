@@ -1,0 +1,58 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Build Tools (Gradle)
+# =========================
+# Karena Exercism menggunakan Gradle untuk setiap soal, 
+# kita perlu mengabaikan folder cache dan build dari Gradle.
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# IDEs
+# =========================
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+# =========================
+# OS specific files
+# =========================
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
